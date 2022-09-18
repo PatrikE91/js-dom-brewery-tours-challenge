@@ -21,7 +21,7 @@
     </header>
     <main>
       <aside class="filters-section">
-        <aside class="filters-section">
+        <aside class="filters-sections">
           <h2>Filter By:</h2>
           <form id="filter-by-type-form" autocompete="off">
             <label for="filter-by-type"><h3>Type of Brewery</h3></label>
@@ -43,6 +43,17 @@
           in templates/standard-list-items.html
           -->
         </ul>
+        <nav class="pagination-container">
+          <button class="pagination-button" id="prev-button" title="Previous page" aria-label="Previous page">
+            &lt;
+          </button>
+           
+          
+           
+          <button class="pagination-button" id="next-button" title="Next page" aria-label="Next page">
+            &gt;
+          </button>
+        </nav>
       </article>
     </main>
     <script src="index.js"></script>
